@@ -29,7 +29,7 @@ defmodule Fastimage.Mixfile do
 
   defp deps do
     [
-    {:hackney, "~> 1.7"},
+    {:hackney, "~> 1.10"},
     {:benchfella, "~> 0.3.0", only: [:dev]},
     {:earmark, "~> 1.0", only: :dev},
     {:ex_doc, "~> 0.13", only: :dev}
